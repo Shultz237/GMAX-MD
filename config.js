@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "GMAX-MD~LVRjiJxZ#PeJqhvh3hNbLQ4jZwQ_6SMnV5FKVUyg8Uj0X5D70oWM",
+SESSION_ID: process.env.SESSION_ID || "GMAX-MD~DR4wSbKB#QjjdMD0UiN_-mZL8qoXc-N85gcB1bfBANAaNnGJkUbg",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -13,7 +13,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY Grey*",
 // set the auto reply massage on status reply  
-PREFIX: process.env.PREFIX || "_",
+PREFIX: process.env.PREFIX || ",",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "♛𝐋𝚵𝚯𝚴𝚰𝐃𝚫𝐒_MD♛",
 // add bot namw here for menu
@@ -55,7 +55,7 @@ PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // make false if want private mod
 AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
-DEV: process.env.DEV || "237680333605,255753853473",
+DEV: process.env.DEV || "237680333605",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "false",
 // true for anti once view 
