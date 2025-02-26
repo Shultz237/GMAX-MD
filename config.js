@@ -13,7 +13,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY Grey*",
 // set the auto reply massage on status reply  
-PREFIX: process.env.PREFIX || ",",
+PREFIX: process.env.PREFIX || "_",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "♛𝐋𝚵𝚯𝚴𝚰𝐃𝚫𝐒_MD♛",
 // add bot namw here for menu
